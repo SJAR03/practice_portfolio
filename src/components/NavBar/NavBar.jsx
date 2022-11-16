@@ -3,7 +3,11 @@ import React from 'react'
 import './NavBar.scss';
 const NavBar = () => {
   return (
-    <div>NavBar</div>
+    <nav>
+      <div>
+        <img src="{images/logo}" alt="logo"/>
+      </div>
+    </nav>
   )
 }
 
